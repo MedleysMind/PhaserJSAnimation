@@ -23,17 +23,18 @@ function preload() {
     false,
     false
   );
-  
+  this.load.image("start", )
 }
 
 function create() {
     
   var vid = this.add.video(225 , 400, "intro");
   vid.setScale(.5);
-//   vid.displayHeight = 800;
   // var played = false;
 //   if (!played) {
     vid.play(true);
+    // vid.play(false);
     // played = true;
+    // vid.destroy(true);
 //   }
 }
