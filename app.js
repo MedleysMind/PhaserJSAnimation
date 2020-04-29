@@ -18,7 +18,7 @@ var game = new Phaser.Game(config);
 function preload() {
   this.load.video(
     "intro",
-    "/assets/videos/TITLEMOBILE.mp4",
+    "./assets/videos/TITLEMOBILE.mp4",
     "loadeddata",
     false,
     false
